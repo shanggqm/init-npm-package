@@ -1,6 +1,6 @@
 {
   "name": "init-npm-package",
-  "version": "0.0.1beta2",
+  "version": "0.0.1-alpha.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.11",
-    "init-npm-package-scallfold": "^0.0.1"
+    "init-npm-package-scallfold": "^0.0.1-alpha.0",
+    "lodash": "^4.17.11"
   }
 }
