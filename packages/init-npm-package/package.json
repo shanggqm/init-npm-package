@@ -1,0 +1,16 @@
+{
+  "name": "init-npm-package",
+  "version": "0.0.1beta2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "init-npm-package-scallfold": "^0.0.1"
+  }
+}

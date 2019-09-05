@@ -1,0 +1,51 @@
+{
+  "name": "init-npm-package",
+  "version": "0.0.1-beta1",
+  "description": "create awesome npm package scallfold",
+  "main": "./dist/index.js",
+  "bin": "dist/bin/index.js",
+  "keywords": [
+    "npm package",
+    "create npm package",
+    "scallfold",
+    "awesome npm package",
+    "init package"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src/",
+    "test": "npm run lint & istanbul cover _mocha -- test/app.js --no-timeouts",
+    "build": "rimraf dist && tsc -P  tsconfig.json",
+    "doc": "jsdoc2md ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shanggqm/init-npm-package.git"
+  },
+  "author": {
+    "name": "guomeiqing",
+    "email": "gmqhust@126.com",
+    "url": "https://github.com/shanggqm/blog"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.134",
+    "@types/node": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.2.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "fs-extra": "^8.0.1",
+    "is": "^3.3.0",
+    "istanbul": "^1.0.0-alpha.2",
+    "jsdoc-to-markdown": "^4.0.1",
+    "jest": "^6.1.4",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.2"
+  },
+  "engines": {
+    "node": ">=8.0"
+  }
+}
